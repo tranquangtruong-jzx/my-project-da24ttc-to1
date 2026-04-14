@@ -1,0 +1,22 @@
+﻿body {
+  background-color: green;
+}
+h1 {
+  color: orange;
+}
+  p {
+  margin-top: 50px;
+}
+img {
+  float: center	;
+} 
+h2 {
+  text-align: left;
+  color: red;
+}
+a {
+  color: black;
+  background-color: purple;
+  font-weight: bold;
+  text-decoration: none;
+} 

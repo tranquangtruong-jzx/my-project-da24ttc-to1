@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form#frmlogin{
+    background-color:darkgray;
+    padding: 10%;
+    border-radius: 5px;
+} 
+input{
+    padding: 5px; 
+    margin 5px;
+    letter-spacing: 2px;
+} 
+h3{
+text-transform: uppercase;
+font-weight: bolder;
+font-size: larger;
+text-align: left;
+} 
+label{
+background-color:darkgray;
+display: block;
+border-radius: 5px;
+} 
+input{
+background-color: burlywood;    
+width:auto
+} 
+div.form-group{
+    margin:2px;
+    padding-bottom: 10px;
+} 
+button{
+    font-weight: 100;
+    background-color:beige;
+    border-style:groove ;
+}

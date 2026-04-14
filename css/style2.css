@@ -1,12 +1,13 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 5px;
+    margin-top: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 form#frmlogin{
     background-color:darkgray;
-    padding: 10%;
+    padding:5%;
     border-radius: 5px;
+    border-style: solid;
 } 
 input{
     padding: 5px; 
@@ -31,9 +32,13 @@ width:auto
 div.form-group{
     margin:2px;
     padding-bottom: 10px;
+
 } 
 button{
     font-weight: 100;
     background-color:beige;
     border-style:groove ;
+}
+a:title{
+  color: gray;
 }

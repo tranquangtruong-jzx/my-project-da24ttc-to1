@@ -18,9 +18,10 @@ h2{
 }
 
 .form-row {
-    display: flex;
+    display:flex;
     gap: 15px;          
     margin-bottom: 20px; 
+    
 }
 .form-group{
     flex:1;

@@ -11,10 +11,9 @@
         <input type="number" id="so" min="1" max="9" value="5">
         <button type="button" id="inbangcuuchuong">In</button>
     </form>
-    <div id="kq"></div>
+    <div id="bangCC"></div>
     <script>
         document.getElementById('inbangcuuchuong').addEventListener('click', function() {
-            let kq = document.getElementById('kq');
             const n = parseInt(document.getElementById('so').value);
             let output = '';
             for (let j = 1; j <= 9; j++) {

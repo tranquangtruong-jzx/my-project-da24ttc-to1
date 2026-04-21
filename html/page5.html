@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng Cửu Chương</title>
+</head>
+<body>
+    <form id="frmInBangCC">
+        <h2>In bảng cửu chương</h2>
+        <label for="so">Nhập số:</label>
+        <input type="number" id="so" min="1" max="9" value="5">
+        <button type="button" id="inbangcuuchuong">In</button>
+    </form>
+    <div id="kq"></div>
+    <script>
+        document.getElementById('inbangcuuchuong').addEventListener('click', function() {
+            let kq = document.getElementById('kq');
+            const n = parseInt(document.getElementById('so').value);
+            let output = '';
+            for (let j = 1; j <= 9; j++) {
+                output += n + ' x ' + j + ' = ' + (n * j) + '<br>';
+            }
+            document.getElementById('bangCC').innerHTML = output;
+        });
+    </script>
+</body>
+</html>      
